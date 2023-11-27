@@ -1,0 +1,24 @@
+.mainlogo {
+	display: flex; flex-wrap: wrap;
+	padding-left: 25px;
+}
+
+.mainheading {
+	padding-left: 25px;
+   	color: blue;
+}
+
+.mainbody {
+	margin-left: 25px; 
+	font-size: large;
+	color: blue;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: stretch;
+	row-gap: 15px
+}

@@ -1,0 +1,28 @@
+
+.mainlogo {
+	display: flex; flex-wrap: wrap;
+	padding-left: 25px;
+}
+
+.mainheading {
+	padding-left: 25px;
+   	color: blue;
+}
+
+
+.mainbody {
+	column-count: 2;
+	column-fill: balance;
+}
+ 
+.dataheader {
+	 column-span: all;
+	 text-align: center;
+	 color: blue;
+ }
+
+.desc {
+	column-span: all;
+	 text-align: center;
+	 color: blue;
+}

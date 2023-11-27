@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" />
+<link rel="stylesheet" href="garden.css">    
+<head>
+    <div class="mainlogo">
+        <img src="GardenWatch.JPG" width="140" height="104" alt="garden image">
+    
+        <div class="mainheading">
+            <h1>Garden Watch Summary</h1>
+        </div>
+    </div>    
+</head>
+
+<body>
+
+    <div class="mainbody"> 
+        <p>This web page shows the latest Garden Watch Data
+	    collected by Ray's Garden Watch RPi.</p>
+		
+		<div class="flex-container">
+			<figure>
+				<figcaption>Latest Garden Watch Image</figcaption>
+				<img src="ImagesAndData/garden.jpg" width="500" height="325" alt="Latest Garden Watch Image.">
+			</figure>
+		
+			<iframe src="ImagesAndData/Lux.html" width="500" height="325" title="Current Irradiance Summary" ></iframe> 
+			
+			<figure>
+				<figcaption>Irradiance Time Series</figcaption>
+				<img src="ImagesAndData/IrrPlotfile.png" width="500" height="325" alt="IrrPlotfile.png.">
+			</figure>
+			
+			
+			<iframe src="ImagesAndData/TempHum.html" width="475" height="325" title= "Current Temperature and Humidity Summary" ></iframe> 
+			
+			<figure>
+				<figcaption>Temperature Time Series</figcaption>
+				<img src="ImagesAndData/TempPlotfile.png" width="500" height="325" alt="TempPlotfile.png.">
+			</figure>
+			
+			<figure>
+				<figcaption>Humidity Time Series</figcaption>
+				<img src="ImagesAndData/HumPlotfile.png" width="500" height="325" alt="HumPlotfile.png.">
+			</figure>
+			
+			<video width="400" height="300" controls>
+			  <source src="ImagesAndData/garden.mp4" type="video/mp4">
+			  Your browser does not support .mp4 video.
+			</video>  
+				
+
+		</div>	
+		
+        <p><a href="index.html">Return to Main Page</a></p>
+	    <p><a href="Feeder.html">Feeder Watch</a></p>
+        <p><a href="Observatory.html">Observatory</a></p>
+        <p><a href="Wine.html">Wine Cellar</a></p>
+    </div>    
+</body>
