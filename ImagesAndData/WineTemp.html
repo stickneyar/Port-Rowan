@@ -1,0 +1,69 @@
+<style>
+table {
+  font-family: arial, sans-serif;
+  width: 450px;
+  border-spacing: 5px 5px;
+  border: 3px black;
+}
+
+td, th {
+  border: 3px; solid: black;
+  text-align: center;
+  width: 100px:
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+p {
+   padding-left: 50px;
+}
+
+</style>
+
+<table>
+  <caption>Table 1: Summary of Wine Cellar Temperature for 2-28-2023</caption>
+  <tr>
+    <th>Location-></th>
+    <th>Minimum, degrees C</th>
+    <th>Maximum, degrees C</th>
+    <th>Average, degrees C</th>
+    <th>No. Of Obs.</th>
+  </tr>
+
+  <tr>
+    <td>Ceiling</td>
+    <td>10.1</td>
+    <td>11.8</td>
+    <td>11.0</td>
+    <td>95</td>
+  </tr>
+
+  <tr>
+    <td>Floor</td>
+    <td>11.6</td>
+    <td>19.7</td>
+    <td>13.3</td>
+    <td>95</td>
+  </tr>
+
+  <tr>
+    <td>Outside</td>
+    <td>0.7</td>
+    <td>8.9</td>
+    <td>4.0</td>
+    <td>95</td>
+  </tr>
+
+  <tr>
+    <td>Basement</td>
+    <td>20.2</td>
+    <td>26.4</td>
+    <td>22.3</td>
+    <td>95</td>
+  </tr>
+
+</table>
+<p>The temperature sensors are UEETek NTC Thermistor Probes<br>connected to my voltage splitting 10K ohm resister PCB board<br>and a Sunflower Analog-to-Digital 4 channel MCP3004 Module.<br>This module interfaces to the RPI through MOSI protocol.</p>
